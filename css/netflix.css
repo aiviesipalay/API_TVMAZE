@@ -1,0 +1,166 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333;
+  background-color: #141414;
+}
+
+.navbar {
+  background-color: #000;
+  border-bottom: 1px solid #e50914;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+}
+
+.navbar-brand img {
+  display: block;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.input-group {
+  width: 300px;
+}
+
+.form-control {
+
+  border: none;
+  color: #fff;
+}
+
+.btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+ 
+ 
+}
+
+.slider-container {
+  display: flex;
+  overflow-x: scroll;
+  padding: 50px;
+  margin-bottom: 20px;
+
+}
+
+.slider-container::-webkit-scrollbar {
+  display: none;
+  /* hide scrollbar */
+}
+
+.slider-container img {
+  height: 300px;
+  width: 230px;
+  margin-right: 20px;
+  border-radius: 5px;
+
+
+
+}
+
+.slider-container img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+
+
+}
+
+.show-container {
+  position: relative;
+}
+
+.details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  z-index: 2;
+  color: #fff;
+  max-height: 50vh;
+  overflow-y: scroll;
+  width: 100%;
+  font-size: 14px;
+  margin-left: -90;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.show-container:hover .details {
+  opacity: .8;
+  visibility: visible;
+}
+
+h3{
+  font-size: medium;
+  text-align: center;
+  color: #fff;
+}
+
+h2{
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+  padding-left: 40px;
+}
+
+.trending-now {
+  position: relative;
+  /* Add other styles as needed */
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  
+ 
+}
+
+.slider-controls2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.slider-controls3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+a{
+  text-decoration: none;
+}
